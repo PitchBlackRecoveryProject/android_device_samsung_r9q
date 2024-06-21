@@ -1,4 +1,4 @@
-## PithBlack Device Tree for the Samsung Galaxy S21 5G FE (Snapdragon)
+## PitchBlack Device Tree for the Samsung Galaxy S21 5G FE (Snapdragon)
 
 ## How-to compile it:
 
