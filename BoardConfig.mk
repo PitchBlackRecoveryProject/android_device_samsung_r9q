@@ -147,7 +147,7 @@ BOARD_USES_METADATA_PARTITION := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := Edward0181-test
+TW_DEVICE_VERSION := Edward0181-stable
 TW_THEME := portrait_hdpi
 TW_FRAMERATE := 120
 #TW_SCREEN_BLANK_ON_BOOT := true
@@ -173,3 +173,7 @@ TWRP_EVENT_LOGGING := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_LOGD := true
+
+#PB FLAGS
+PB_TORCH_PATH := "/sys/devices/virtual/camera/flash/rear_flash"
+PB_TORCH_MAX_BRIGHTNESS := 1
